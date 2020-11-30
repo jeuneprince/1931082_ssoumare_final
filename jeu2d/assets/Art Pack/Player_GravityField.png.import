@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Player_GravityField.png-d822f68cd9c2d7d23ca9d38d85b85286.stex"
+path="res://.import/Player_GravityField.png-d8da4f50c1986f4e163ea6ffa9afa512.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Pack/Player_GravityField.png"
-dest_files=[ "res://.import/Player_GravityField.png-d822f68cd9c2d7d23ca9d38d85b85286.stex" ]
+source_file="res://assets/Art Pack/Player_GravityField.png"
+dest_files=[ "res://.import/Player_GravityField.png-d8da4f50c1986f4e163ea6ffa9afa512.stex" ]
 
 [params]
 

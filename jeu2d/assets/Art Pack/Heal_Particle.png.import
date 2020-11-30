@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex"
+path="res://.import/Heal_Particle.png-80be1e4ac156f87bb9dc525daaa49c3f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Art Pack/HP_Background.png"
-dest_files=[ "res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex" ]
+source_file="res://assets/Art Pack/Heal_Particle.png"
+dest_files=[ "res://.import/Heal_Particle.png-80be1e4ac156f87bb9dc525daaa49c3f.stex" ]
 
 [params]
 

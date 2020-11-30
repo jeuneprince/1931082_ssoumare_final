@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex"
+path="res://.import/Enemy_1_Neon.png-dd15a7e4699b28e5421240a18e5c6e71.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Art Pack/HP_Background.png"
-dest_files=[ "res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex" ]
+source_file="res://assets/Art Pack/Enemy_1_Neon.png"
+dest_files=[ "res://.import/Enemy_1_Neon.png-dd15a7e4699b28e5421240a18e5c6e71.stex" ]
 
 [params]
 

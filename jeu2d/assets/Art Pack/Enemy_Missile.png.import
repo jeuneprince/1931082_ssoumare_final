@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex"
+path="res://.import/Enemy_Missile.png-8a313f8871bcddfa37bdb48c4597c455.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Art Pack/HP_Background.png"
-dest_files=[ "res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex" ]
+source_file="res://assets/Art Pack/Enemy_Missile.png"
+dest_files=[ "res://.import/Enemy_Missile.png-8a313f8871bcddfa37bdb48c4597c455.stex" ]
 
 [params]
 

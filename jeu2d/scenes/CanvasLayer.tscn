@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/Art Pack/HighScores.png" type="Texture" id=1]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+margin_right = -624.0
+margin_bottom = 18.0
+color = Color( 0.0392157, 0.0392157, 0.0392157, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressBar" type="ProgressBar" parent="ColorRect"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_top = -7.0
+margin_right = 140.0
+margin_bottom = 7.0
+custom_colors/font_color = Color( 0.960784, 0.937255, 0.937255, 1 )
+custom_colors/font_color_shadow = Color( 0.847059, 0.878431, 0.847059, 1 )
+value = 95.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="ColorRect"]
+margin_left = 392.0
+margin_top = 1.0
+margin_right = 430.0
+margin_bottom = 15.0
+custom_colors/font_color = Color( 0.027451, 0.556863, 0.972549, 1 )
+custom_colors/font_outline_modulate = Color( 0.027451, 0.556863, 0.972549, 1 )
+custom_colors/font_color_shadow = Color( 0.027451, 0.556863, 0.972549, 1 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HighScores" type="Sprite" parent="ColorRect"]
+position = Vector2( 264, 8 )
+scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 1 )

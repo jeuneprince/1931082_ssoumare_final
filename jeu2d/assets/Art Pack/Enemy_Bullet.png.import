@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex"
+path="res://.import/Enemy_Bullet.png-2d28afd2a51e5f415a05f54309ab6762.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Art Pack/HP_Background.png"
-dest_files=[ "res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex" ]
+source_file="res://assets/Art Pack/Enemy_Bullet.png"
+dest_files=[ "res://.import/Enemy_Bullet.png-2d28afd2a51e5f415a05f54309ab6762.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/space.png-4bbc495d04b9134e985d80c6af87df6b.stex"
+path="res://.import/space.png-4a40059e5c0a74967c093149e503cbd7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Pack/space.png"
-dest_files=[ "res://.import/space.png-4bbc495d04b9134e985d80c6af87df6b.stex" ]
+source_file="res://assets/Art Pack/space.png"
+dest_files=[ "res://.import/space.png-4a40059e5c0a74967c093149e503cbd7.stex" ]
 
 [params]
 

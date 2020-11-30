@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Player_Speed.png-f0b646a9a7efa9209be31e6ff494cba3.stex"
+path="res://.import/Player_Speed.png-51f064d66f34cba10d361e9d4269202d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Pack/Player_Speed.png"
-dest_files=[ "res://.import/Player_Speed.png-f0b646a9a7efa9209be31e6ff494cba3.stex" ]
+source_file="res://assets/Art Pack/Player_Speed.png"
+dest_files=[ "res://.import/Player_Speed.png-51f064d66f34cba10d361e9d4269202d.stex" ]
 
 [params]
 

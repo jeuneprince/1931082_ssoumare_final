@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HP_Foreground.png-653635ba41608540e05c893e0c16304d.stex"
+path="res://.import/HP_Foreground.png-b3e57ee4bff35d5cf79856209fa12049.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Pack/HP_Foreground.png"
-dest_files=[ "res://.import/HP_Foreground.png-653635ba41608540e05c893e0c16304d.stex" ]
+source_file="res://assets/Art Pack/HP_Foreground.png"
+dest_files=[ "res://.import/HP_Foreground.png-b3e57ee4bff35d5cf79856209fa12049.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex"
+path="res://.import/GridTile.png-673cc0681499d0bbea7900c52557b3fe.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Art Pack/HP_Background.png"
-dest_files=[ "res://.import/HP_Background.png-946285af71afbd839cc7e68d4bc2eafb.stex" ]
+source_file="res://assets/Art Pack/GridTile.png"
+dest_files=[ "res://.import/GridTile.png-673cc0681499d0bbea7900c52557b3fe.stex" ]
 
 [params]
 

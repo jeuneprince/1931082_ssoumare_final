@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Player_Defense.png-c63579b0044f2c87e542f531dfe17a2c.stex"
+path="res://.import/Player_Defense.png-8e036f2f72a202475f8e183a7d83ccff.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Pack/Player_Defense.png"
-dest_files=[ "res://.import/Player_Defense.png-c63579b0044f2c87e542f531dfe17a2c.stex" ]
+source_file="res://assets/Art Pack/Player_Defense.png"
+dest_files=[ "res://.import/Player_Defense.png-8e036f2f72a202475f8e183a7d83ccff.stex" ]
 
 [params]
 

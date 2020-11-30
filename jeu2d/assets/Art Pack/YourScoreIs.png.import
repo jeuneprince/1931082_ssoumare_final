@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/YourScoreIs.png-ed6c9be848d33e4ddb18f679c27bba8f.stex"
+path="res://.import/YourScoreIs.png-3d8a27d5cae2e9714f3f98bb3653f7ac.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Pack/YourScoreIs.png"
-dest_files=[ "res://.import/YourScoreIs.png-ed6c9be848d33e4ddb18f679c27bba8f.stex" ]
+source_file="res://assets/Art Pack/YourScoreIs.png"
+dest_files=[ "res://.import/YourScoreIs.png-3d8a27d5cae2e9714f3f98bb3653f7ac.stex" ]
 
 [params]
 

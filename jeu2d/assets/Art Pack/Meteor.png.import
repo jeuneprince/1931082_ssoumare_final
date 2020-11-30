@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Meteor.png-7d43ac9d4cf6c7452b72d632aa85c56e.stex"
+path="res://.import/Meteor.png-b860b74b85d3824f83b369d76d9e651c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Pack/Meteor.png"
-dest_files=[ "res://.import/Meteor.png-7d43ac9d4cf6c7452b72d632aa85c56e.stex" ]
+source_file="res://assets/Art Pack/Meteor.png"
+dest_files=[ "res://.import/Meteor.png-b860b74b85d3824f83b369d76d9e651c.stex" ]
 
 [params]
 
