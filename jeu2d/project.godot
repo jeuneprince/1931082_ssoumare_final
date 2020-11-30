@@ -16,12 +16,13 @@ _global_script_class_icons={
 [application]
 
 config/name="1931082_ssoumare_final"
-run/main_scene="res://scenes/Main.tscn"
+run/main_scene="res://scenes/Control.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 Score="*res://scripts/global.gd"
+Ennemi="*res://scripts/global.gd"
 
 [input]
 

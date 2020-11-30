@@ -36,10 +36,12 @@ func touch():
 	$"/root/Score".Score +=10
 	if hp <= 0:
 		queue_free()
+		$"/root/Ennemi".Ennemi -= 1
 
 func collisionjoueur():
 	hp = 0
 	$"/root/Score".Score +=5
+	$"/root/Ennemi".Ennemi -= 1
 	queue_free()
 
 # warning-ignore:unused_argument
@@ -56,3 +58,4 @@ func _on_Area2D2_body_entered(body):
 	if "player" in body.name:
 		body.collisionennemi()
 		queue_free()
+		$"/root/Ennemi".Ennemi -= 1

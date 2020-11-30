@@ -3,7 +3,7 @@ extends KinematicBody2D
 var speed=180
 var velocity= Vector2(0,0)
 onready var anim = $Player_Defense
-var hp = 90
+var hp = 80
 var mort = false
 var balle = preload("res://scenes/Balle.tscn")
 var zone = false
@@ -34,28 +34,33 @@ func _deplacement():
 	
 func shoot():
 	var b = balle.instance()
+	$AudioStreamPlayer.play()
 	b.start($Position2D.global_position, rotation)
 	get_parent().add_child(b)
 	
 func touch1():
 	hp -= (5*hp)/100
 	if hp <= 0:
-		queue_free()
+		$mort.play()
+		get_tree().change_scene("res://scenes/Control.tscn")
 
 func touch2():
 	hp -= (10*hp)/100
 	if hp <= 0:
-		queue_free()
+		$mort.play()
+		get_tree().change_scene("res://scenes/Control.tscn")
 
 func touch3():
-	hp -= ((5*hp)/100) * 3
+	hp -= (20*hp)/100
 	if hp <= 0:
-		queue_free()
+		$mort.play()
+		get_tree().change_scene("res://scenes/Control.tscn")
 
 func collisionennemi():
 	hp -= (15*hp)/100
 	if hp <= 0:
-		queue_free()
+		$mort.play()
+		get_tree().change_scene("res://scenes/Control.tscn")
 	
 func _physics_process(delta):
 	_deplacement()

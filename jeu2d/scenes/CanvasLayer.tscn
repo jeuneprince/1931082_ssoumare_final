@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://assets/Art Pack/HighScores.png" type="Texture" id=1]
+[ext_resource path="res://assets/Art Pack/YourScoreIs.png" type="Texture" id=1]
 
 [node name="CanvasLayer" type="CanvasLayer"]
 
@@ -21,7 +21,7 @@ margin_right = 140.0
 margin_bottom = 7.0
 custom_colors/font_color = Color( 0.960784, 0.937255, 0.937255, 1 )
 custom_colors/font_color_shadow = Color( 0.847059, 0.878431, 0.847059, 1 )
-value = 95.0
+value = 80.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -40,6 +40,6 @@ __meta__ = {
 }
 
 [node name="HighScores" type="Sprite" parent="ColorRect"]
-position = Vector2( 264, 8 )
-scale = Vector2( 0.4, 0.4 )
+position = Vector2( 243.1, 8 )
+scale = Vector2( 0.342661, 0.4 )
 texture = ExtResource( 1 )

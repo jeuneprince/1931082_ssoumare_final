@@ -44,6 +44,8 @@ func touch():
 	$"/root/Score".Score +=30
 	if hp <= 0:
 		queue_free()
+		$"/root/Ennemi".Ennemi -= 1
+	
 
 
 func _on_Area2D_body_entered(body):
@@ -56,6 +58,13 @@ func _on_Area2D2_body_entered(body):
 	if "player" in body.name:
 		body.collisionennemi()
 		queue_free()
+		$"/root/Ennemi".Ennemi -= 1
+
+func collisionjoueur():
+	hp = 0
+	$"/root/Score".Score +=5
+	$"/root/Ennemi".Ennemi -= 1
+	queue_free()
 
 
 func _on_Area2D_body_exited(body):

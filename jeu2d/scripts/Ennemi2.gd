@@ -21,6 +21,7 @@ func _physics_process(delta):
 
 func shoot():
 	var b = balle1.instance() 
+	$missile.play()
 	b.position = get_global_position()
 	b.player = player
 	get_parent().add_child(b)
@@ -45,11 +46,14 @@ func touch():
 	hp -= 25
 	$"/root/Score".Score +=20
 	if hp <= 0:
+		$ennemimort.play()
+		$"/root/Ennemi".Ennemi -= 1
 		queue_free()
 
 func collisionjoueur():
 	hp = 0
 	$"/root/Score".Score +=5
+	$"/root/Ennemi".Ennemi -= 1
 	queue_free()
 	
 func _on_Area2D_body_exited(body):
@@ -60,3 +64,4 @@ func _on_Area2D2_body_entered(body):
 	if "player" in body.name:
 		body.collisionennemi()
 		queue_free()
+		$"/root/Ennemi".Ennemi -= 1
