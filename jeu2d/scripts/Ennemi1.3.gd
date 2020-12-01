@@ -21,7 +21,6 @@ func _physics_process(delta):
 
 func shoot():
 	var b = balle1.instance() 
-	$AudioStreamPlayer.play()
 	b.position = get_global_position()
 	b.player = player
 	get_parent().add_child(b)
@@ -37,12 +36,12 @@ func touch():
 	$"/root/Score".Score +=10
 	if hp <= 0:
 		queue_free()
-		$"/root/Ennemi".Ennemi -= 1
+		$"/root/Ennemi3".Ennemi3 -= 1
 
 func collisionjoueur():
 	hp = 0
 	$"/root/Score".Score +=5
-	$"/root/Ennemi".Ennemi -= 1
+	$"/root/Ennemi3".Ennemi3 -= 1
 	queue_free()
 
 # warning-ignore:unused_argument
@@ -59,4 +58,4 @@ func _on_Area2D2_body_entered(body):
 	if "player" in body.name:
 		body.collisionennemi()
 		queue_free()
-		$"/root/Ennemi".Ennemi -= 1
+		$"/root/Ennemi3".Ennemi3 -= 1

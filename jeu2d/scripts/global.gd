@@ -1,7 +1,8 @@
 extends Node
 
 var Score = 0
-var Ennemi = 5
+var Ennemi = 7
+
 
 # Declare member variables here. Examples:
 # var a = 2

@@ -3,7 +3,7 @@ extends KinematicBody2D
 var speed=180
 var velocity= Vector2(0,0)
 onready var anim = $Player_Defense
-var hp = 80
+var hp = 90
 var mort = false
 var balle = preload("res://scenes/Balle.tscn")
 var zone = false

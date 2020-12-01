@@ -11,9 +11,6 @@ func _ready():
 func _process(delta):
 	$CanvasLayer/ColorRect/ProgressBar.value = $player.hp
 	$CanvasLayer/ColorRect/Label.text = str($"/root/Score".Score)
-	if ($"/root/Ennemi".Ennemi == 0) :
+	if ($"/root/Ennemi".Ennemi == 0):
 		$"/root/Ennemi".Ennemi = 7
-		get_tree().change_scene("res://scenes/Level2.tscn")
-
-	
-	
+		get_tree().change_scene("res://scenes/Level3.tscn")

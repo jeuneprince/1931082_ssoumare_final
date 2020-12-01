@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/Background/spacefield_a-000.png" type="Texture" id=1]
+[ext_resource path="res://assets/Art Pack/Heal_Particle.png" type="Texture" id=2]
+[ext_resource path="res://assets/Art Pack/Meteor.png" type="Texture" id=3]
+[ext_resource path="res://scenes/player.tscn" type="PackedScene" id=4]
+
+[node name="Node2D" type="ParallaxBackground"]
+
+[node name="Back" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 1920, 800 )
+
+[node name="Sprite" type="Sprite" parent="Back"]
+scale = Vector2( 1.5, 1 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="meteore" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 350, 0 )
+
+[node name="Sprite" type="Sprite" parent="meteore"]
+position = Vector2( 632, 408 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="particule" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 350, 0 )
+
+[node name="Sprite" type="Sprite" parent="particule"]
+position = Vector2( 720, 272 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="player" parent="." instance=ExtResource( 4 )]
+position = Vector2( 560, 872 )

@@ -23,6 +23,8 @@ config/icon="res://icon.png"
 
 Score="*res://scripts/global.gd"
 Ennemi="*res://scripts/global.gd"
+Ennemi2="*res://scripts/global.gd"
+Ennemi3="*res://scripts/global.gd"
 
 [input]
 

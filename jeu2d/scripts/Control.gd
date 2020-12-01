@@ -12,7 +12,8 @@ func _ready():
 
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://scenes/Main.tscn")
+	$AudioStreamPlayer.play()
+	get_tree().change_scene("res://scenes/Level1.tscn")
 
 
 func _on_Button2_pressed():

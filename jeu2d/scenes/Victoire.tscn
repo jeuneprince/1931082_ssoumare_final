@@ -1,17 +1,17 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/Background/spacefield_a-000.png" type="Texture" id=1]
-[ext_resource path="res://assets/Art Pack/Button_Play.png" type="Texture" id=2]
-[ext_resource path="res://scripts/Control.gd" type="Script" id=3]
-[ext_resource path="res://assets/Art Pack/Button_Quit.png" type="Texture" id=4]
-[ext_resource path="res://assets/Sons/PowerUp1.wav" type="AudioStream" id=5]
+[ext_resource path="res://assets/Art Pack/Button_Quit.png" type="Texture" id=2]
+[ext_resource path="res://assets/Art Pack/Button_Play.png" type="Texture" id=3]
+[ext_resource path="res://assets/Sons/PowerUp1.wav" type="AudioStream" id=4]
+[ext_resource path="res://scripts/Control.gd" type="Script" id=5]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_right = 384.0
 margin_bottom = 144.0
-script = ExtResource( 3 )
+script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -37,15 +37,25 @@ __meta__ = {
 [node name="Play" type="Button" parent="Background-4/VBoxContainer"]
 margin_right = 502.0
 margin_bottom = 70.0
-icon = ExtResource( 2 )
+icon = ExtResource( 3 )
 
 [node name="Quit" type="Button" parent="Background-4/VBoxContainer"]
 margin_top = 74.0
 margin_right = 502.0
 margin_bottom = 144.0
-icon = ExtResource( 4 )
+icon = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="Background-4/VBoxContainer"]
+margin_top = 200.0
+margin_right = 502.0
+margin_bottom = 214.0
+text = "WIN"
+align = 1
+valign = 1
+uppercase = true
+percent_visible = -0.333333
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 5 )
+stream = ExtResource( 4 )
 [connection signal="pressed" from="Background-4/VBoxContainer/Play" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Background-4/VBoxContainer/Quit" to="." method="_on_Button2_pressed"]
