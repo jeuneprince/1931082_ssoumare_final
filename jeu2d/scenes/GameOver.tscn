@@ -35,15 +35,22 @@ __meta__ = {
 }
 
 [node name="Play" type="Button" parent="Background-4/VBoxContainer"]
-margin_right = 502.0
+margin_right = 501.0
 margin_bottom = 70.0
 icon = ExtResource( 3 )
 
 [node name="Quit" type="Button" parent="Background-4/VBoxContainer"]
 margin_top = 74.0
-margin_right = 502.0
+margin_right = 501.0
 margin_bottom = 144.0
 icon = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="Background-4/VBoxContainer"]
+margin_top = 148.0
+margin_right = 501.0
+margin_bottom = 162.0
+text = "GAME OVER"
+align = 1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )

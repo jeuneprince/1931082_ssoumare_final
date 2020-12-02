@@ -35,6 +35,12 @@ func _on_Balle_body_entered(body):
 	if "Ennemi5" in body.name:
 		body.touch()
 		queue_free()
+	if "Ennemi6" in body.name:
+		body.touch()
+		queue_free()
+	if "Ennemi7" in body.name:
+		body.touch()
+		queue_free()
 	
 	
 	

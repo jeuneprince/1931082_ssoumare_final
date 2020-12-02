@@ -12,4 +12,4 @@ func _process(delta):
 	$CanvasLayer/ColorRect/ProgressBar.value = $player.hp
 	$CanvasLayer/ColorRect/Label.text = str($"/root/Score".Score)
 	if ($"/root/Ennemi".Ennemi == 0) :
-		get_tree().change_scene("res://scenes/Control.tscn")
+		get_tree().change_scene("res://scenes/Victoire.tscn")
